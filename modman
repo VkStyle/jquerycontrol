@@ -1,0 +1,7 @@
+app\etc\modules\Komplizierte_Jquerycontrol.xml                          app\etc\modules\Komplizierte_Jquerycontrol.xml
+app\code\community\Komplizierte\Jquerycontrol\etc\config.xml            app\code\community\Komplizierte\Jquerycontrol\etc\config.xml
+app\code\community\Komplizierte\Jquerycontrol\etc\system.xml            app\code\community\Komplizierte\Jquerycontrol\etc\system.xml
+app\design\frontend\komplizierte\default\layout\jquerycontrol.xml       app\design\frontend\komplizierte\default\layout\jquerycontrol.xml
+js\komplizierte\jquery.js                                               js\komplizierte\jquery.js
+js\komplizierte\jquery-test.js                                          js\komplizierte\jquery-test.js
+js\komplizierte\noConflict.js                                           js\komplizierte\noConflict.js

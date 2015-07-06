@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <default>
+		<reference name="head" >		
+		
+			<action method="addItem" ifconfig="jquerycontrolsection/active_group/is_active">
+				<type>js</type>
+				<name>komplizierte/jquery.js</name>
+			</action>
+		
+			<action method="addItem" ifconfig="jquerycontrolsection/active_group/is_active">
+				<type>js</type>
+				<name>komplizierte/noConflict.js</name>
+			</action>
+
+			<action method="addItem" ifconfig="jquerycontrolsection/active_group/is_active">
+				<type>js</type>
+				<name>komplizierte/jquery-test.js</name>
+			</action>	
+			
+		</reference>	
+    </default>
+</layout> 

@@ -1,0 +1,18 @@
+{
+	"name": "Komplizierte/JQueryconrol",
+	"license": "OSL-3.0",
+	"type": "magento-module",
+	"description": "JQuery on/off",
+
+	"require": {		
+		"magento-hackathon/magento-composer-installer": "*",
+		"magento/core": "1.9.1.0"
+	},
+
+	"authors":[
+		{
+			"name":"Vladimir Kuznetsov",
+			"email":"i@vipkuznetsov.ru"
+		}
+	]
+}

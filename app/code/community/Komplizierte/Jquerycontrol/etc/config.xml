@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<config>
+     <modules>
+        <Komplizierte_Jquerycontrol>
+          <version>1.0.0</version>
+        </Komplizierte_Jquerycontrol>
+     </modules>
+     <frontend>
+       <routers>
+          <jquerycontrol>
+              <use>standard</use>
+              <args>
+                 <module>Komplizierte_Jquerycontrol</module>
+                 <frontName>jquerycontrol</frontName>
+              </args>
+           </jquerycontrol>	   	   
+       </routers>
+		   
+		<layout>
+		   <updates>
+				<jquerycontrol>
+					<file>jquerycontrol.xml</file>
+				</jquerycontrol>
+			</updates>
+		</layout>		   
+    </frontend>
+
+	 <adminhtml>		
+		<acl>
+			<resources>
+				<admin>
+					<children>
+						<system>
+							<children>
+								<config>
+									<children>
+										<jquerycontrolsection>
+											<title>JQuery control</title>
+										</jquerycontrolsection>
+									</children>
+								</config>
+							</children>
+						</system>
+					</children>
+				</admin>
+			</resources>
+		</acl>
+	</adminhtml>	
+
+</config>
